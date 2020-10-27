@@ -35,7 +35,7 @@ function searchWeather(searchString){
     .then(result => {
         init(result);
     })
-      //yatta yatta yatta //coverts http request to json to which we can work with
+      //coverts http request to json to which we can work with
         //call to api then returns json, result is info from server
 }
 //outputs the json format to the console.
